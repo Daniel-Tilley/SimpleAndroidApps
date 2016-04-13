@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Temperature</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_name">Temp Converter</string>
+    <string name="temp_hint_text">Enter Temperature</string>
+    <string name="celsius_button_title">C</string>
+    <string name="fahrenheit_button_title">F</string>
+</resources>

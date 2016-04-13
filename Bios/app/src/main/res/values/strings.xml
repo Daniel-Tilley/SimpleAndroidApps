@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Bios</string>
+    <string name="bachImage">Bach</string>
+    <string name="mozartImage">Mozart</string>
+    <string name="title_activity_details_activity">details_activity</string>
+    <string name="title_activity_details">DetailsActivity</string>
+</resources>

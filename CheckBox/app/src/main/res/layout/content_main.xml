@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="checkbox.danieltilley.ie.checkbox.MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:background="#f0d1e4">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/title"
+        android:id="@+id/titleId"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/DogTitle"
+        android:id="@+id/checkBoxDogId"
+        android:layout_below="@+id/titleId"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/CatTitle"
+        android:id="@+id/checkBoxCatId"
+        android:layout_below="@+id/checkBoxDogId"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/DragonTitle"
+        android:id="@+id/checkBoxDragonId"
+        android:layout_below="@+id/checkBoxCatId"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:checked="false" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ButtonTitle"
+        android:id="@+id/showButtonId"
+        android:layout_below="@+id/checkBoxDragonId"
+        android:layout_alignRight="@+id/checkBoxDragonId"
+        android:layout_alignEnd="@+id/checkBoxDragonId"
+        android:layout_marginTop="50dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ShowTextTitle"
+        android:id="@+id/showTextId"
+        android:layout_below="@+id/showButtonId"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" />
+</RelativeLayout>

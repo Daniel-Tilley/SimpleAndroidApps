@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">RadioButton</string>
+    <string name="action_settings">Settings</string>
+    <string name="titleName">Will you be there?</string>
+    <string name="positiveChoice">Yes</string>
+    <string name="negativeChoice">No</string>
+    <string name="thirdChoice">Dunno mate</string>
+    <string name="showButtonText">Show Result</string>
+    <string name="textViewChoice"></string>
+</resources>

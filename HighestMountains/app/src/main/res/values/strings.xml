@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">HighestMountains</string>
+    <string name="action_settings">Settings</string>
+    <string name="buttonTitle">Random Mountain</string>
+</resources>

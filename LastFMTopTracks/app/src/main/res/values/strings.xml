@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LastFMTopTracks</string>
+    <string name="change_location">Change City</string>
+    <string name="go_website"></string>
+</resources>
